@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FYX/FYX.h>
+#import <FYX/FYXVisitManager.h>
+#import <FYX/FYXVisit.h>
+#import <FYX/FYXTransmitter.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, FYXServiceDelegate, FYXVisitDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic) FYXVisitManager *visitManager;
 @end

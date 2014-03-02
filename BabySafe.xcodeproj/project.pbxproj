@@ -21,6 +21,20 @@
 		222AA85818C25F7D00CEFDBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AA83A18C25F7D00CEFDBD /* UIKit.framework */; };
 		222AA86018C25F7D00CEFDBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 222AA85E18C25F7D00CEFDBD /* InfoPlist.strings */; };
 		222AA86218C25F7D00CEFDBD /* BabySafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 222AA86118C25F7D00CEFDBD /* BabySafeTests.m */; };
+		222AA86C18C272C900CEFDBD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AA86B18C272C900CEFDBD /* CoreBluetooth.framework */; };
+		222AA86E18C272D800CEFDBD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AA86D18C272D800CEFDBD /* CoreLocation.framework */; };
+		222AA87018C272E500CEFDBD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AA86F18C272E500CEFDBD /* CoreData.framework */; };
+		222AA87218C2731400CEFDBD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AA87118C2731400CEFDBD /* libz.dylib */; };
+		222AA87418C2732600CEFDBD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AA87318C2732600CEFDBD /* MapKit.framework */; };
+		222AA87618C2733400CEFDBD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AA87518C2733400CEFDBD /* Security.framework */; };
+		222AA8A318C2739400CEFDBD /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AA89218C2739400CEFDBD /* Common.framework */; };
+		222AA8A418C2739400CEFDBD /* ContextCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AA89518C2739400CEFDBD /* ContextCore.framework */; };
+		222AA8A518C2739400CEFDBD /* ContextLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AA89818C2739400CEFDBD /* ContextLocation.framework */; };
+		222AA8A618C2739400CEFDBD /* DataModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 222AA89A18C2739400CEFDBD /* DataModels.bundle */; };
+		222AA8A718C2739400CEFDBD /* ContextProfiling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AA89C18C2739400CEFDBD /* ContextProfiling.framework */; };
+		222AA8A818C2739400CEFDBD /* rules.txt in Resources */ = {isa = PBXBuildFile; fileRef = 222AA89E18C2739400CEFDBD /* rules.txt */; };
+		222AA8A918C2739400CEFDBD /* FYX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AA89F18C2739400CEFDBD /* FYX.framework */; };
+		222AA8AA18C2739400CEFDBD /* NetworkServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222AA8A118C2739400CEFDBD /* NetworkServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +67,20 @@
 		222AA85D18C25F7D00CEFDBD /* BabySafeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BabySafeTests-Info.plist"; sourceTree = "<group>"; };
 		222AA85F18C25F7D00CEFDBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		222AA86118C25F7D00CEFDBD /* BabySafeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabySafeTests.m; sourceTree = "<group>"; };
+		222AA86B18C272C900CEFDBD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		222AA86D18C272D800CEFDBD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		222AA86F18C272E500CEFDBD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		222AA87118C2731400CEFDBD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		222AA87318C2732600CEFDBD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		222AA87518C2733400CEFDBD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		222AA89218C2739400CEFDBD /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Common.framework; sourceTree = "<group>"; };
+		222AA89518C2739400CEFDBD /* ContextCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ContextCore.framework; sourceTree = "<group>"; };
+		222AA89818C2739400CEFDBD /* ContextLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ContextLocation.framework; sourceTree = "<group>"; };
+		222AA89A18C2739400CEFDBD /* DataModels.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DataModels.bundle; sourceTree = "<group>"; };
+		222AA89C18C2739400CEFDBD /* ContextProfiling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ContextProfiling.framework; sourceTree = "<group>"; };
+		222AA89E18C2739400CEFDBD /* rules.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rules.txt; sourceTree = "<group>"; };
+		222AA89F18C2739400CEFDBD /* FYX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FYX.framework; sourceTree = "<group>"; };
+		222AA8A118C2739400CEFDBD /* NetworkServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NetworkServices.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +88,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222AA87618C2733400CEFDBD /* Security.framework in Frameworks */,
+				222AA8AA18C2739400CEFDBD /* NetworkServices.framework in Frameworks */,
+				222AA87418C2732600CEFDBD /* MapKit.framework in Frameworks */,
+				222AA87218C2731400CEFDBD /* libz.dylib in Frameworks */,
+				222AA8A518C2739400CEFDBD /* ContextLocation.framework in Frameworks */,
+				222AA8A918C2739400CEFDBD /* FYX.framework in Frameworks */,
+				222AA87018C272E500CEFDBD /* CoreData.framework in Frameworks */,
+				222AA8A418C2739400CEFDBD /* ContextCore.framework in Frameworks */,
+				222AA86E18C272D800CEFDBD /* CoreLocation.framework in Frameworks */,
+				222AA86C18C272C900CEFDBD /* CoreBluetooth.framework in Frameworks */,
 				222AA83918C25F7D00CEFDBD /* CoreGraphics.framework in Frameworks */,
+				222AA8A718C2739400CEFDBD /* ContextProfiling.framework in Frameworks */,
+				222AA8A318C2739400CEFDBD /* Common.framework in Frameworks */,
 				222AA83B18C25F7D00CEFDBD /* UIKit.framework in Frameworks */,
 				222AA83718C25F7D00CEFDBD /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +141,18 @@
 		222AA83518C25F7D00CEFDBD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				222AA89118C2739400CEFDBD /* Common.embeddedframework */,
+				222AA89418C2739400CEFDBD /* ContextCore.embeddedframework */,
+				222AA89718C2739400CEFDBD /* ContextLocation.embeddedframework */,
+				222AA89B18C2739400CEFDBD /* ContextProfiling.embeddedframework */,
+				222AA89F18C2739400CEFDBD /* FYX.framework */,
+				222AA8A018C2739400CEFDBD /* NetworkServices.embeddedframework */,
+				222AA87518C2733400CEFDBD /* Security.framework */,
+				222AA87318C2732600CEFDBD /* MapKit.framework */,
+				222AA87118C2731400CEFDBD /* libz.dylib */,
+				222AA86F18C272E500CEFDBD /* CoreData.framework */,
+				222AA86D18C272D800CEFDBD /* CoreLocation.framework */,
+				222AA86B18C272C900CEFDBD /* CoreBluetooth.framework */,
 				222AA83618C25F7D00CEFDBD /* Foundation.framework */,
 				222AA83818C25F7D00CEFDBD /* CoreGraphics.framework */,
 				222AA83A18C25F7D00CEFDBD /* UIKit.framework */,
@@ -150,6 +202,88 @@
 				222AA85E18C25F7D00CEFDBD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		222AA89118C2739400CEFDBD /* Common.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				222AA89218C2739400CEFDBD /* Common.framework */,
+				222AA89318C2739400CEFDBD /* Resources */,
+			);
+			path = Common.embeddedframework;
+			sourceTree = "<group>";
+		};
+		222AA89318C2739400CEFDBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		222AA89418C2739400CEFDBD /* ContextCore.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				222AA89518C2739400CEFDBD /* ContextCore.framework */,
+				222AA89618C2739400CEFDBD /* Resources */,
+			);
+			path = ContextCore.embeddedframework;
+			sourceTree = "<group>";
+		};
+		222AA89618C2739400CEFDBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		222AA89718C2739400CEFDBD /* ContextLocation.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				222AA89818C2739400CEFDBD /* ContextLocation.framework */,
+				222AA89918C2739400CEFDBD /* Resources */,
+			);
+			path = ContextLocation.embeddedframework;
+			sourceTree = "<group>";
+		};
+		222AA89918C2739400CEFDBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				222AA89A18C2739400CEFDBD /* DataModels.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		222AA89B18C2739400CEFDBD /* ContextProfiling.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				222AA89C18C2739400CEFDBD /* ContextProfiling.framework */,
+				222AA89D18C2739400CEFDBD /* Resources */,
+			);
+			path = ContextProfiling.embeddedframework;
+			sourceTree = "<group>";
+		};
+		222AA89D18C2739400CEFDBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				222AA89E18C2739400CEFDBD /* rules.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		222AA8A018C2739400CEFDBD /* NetworkServices.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				222AA8A118C2739400CEFDBD /* NetworkServices.framework */,
+				222AA8A218C2739400CEFDBD /* Resources */,
+			);
+			path = NetworkServices.embeddedframework;
+			sourceTree = "<group>";
+		};
+		222AA8A218C2739400CEFDBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +365,8 @@
 				222AA84F18C25F7D00CEFDBD /* Images.xcassets in Resources */,
 				222AA84118C25F7D00CEFDBD /* InfoPlist.strings in Resources */,
 				222AA84A18C25F7D00CEFDBD /* Main.storyboard in Resources */,
+				222AA8A618C2739400CEFDBD /* DataModels.bundle in Resources */,
+				222AA8A818C2739400CEFDBD /* rules.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +514,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/awesome/Developer/apple/hackathons/gimbalsdk_1.13_ios/Frameworks/Common.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/gimbalsdk_1.13_ios/Frameworks/ContextCore.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/gimbalsdk_1.13_ios/Frameworks/ContextLocation.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/gimbalsdk_1.13_ios/Frameworks/ContextProfiling.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/gimbalsdk_1.13_ios/Frameworks,
+					/Users/awesome/Developer/apple/hackathons/gimbalsdk_1.13_ios/Frameworks/NetworkServices.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/BabySafe/Common.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/BabySafe/ContextCore.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/BabySafe/ContextLocation.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/BabySafe/ContextProfiling.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/BabySafe,
+					/Users/awesome/Developer/apple/hackathons/BabySafe/NetworkServices.embeddedframework,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BabySafe/BabySafe-Prefix.pch";
 				INFOPLIST_FILE = "BabySafe/BabySafe-Info.plist";
@@ -391,6 +542,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/awesome/Developer/apple/hackathons/gimbalsdk_1.13_ios/Frameworks/Common.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/gimbalsdk_1.13_ios/Frameworks/ContextCore.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/gimbalsdk_1.13_ios/Frameworks/ContextLocation.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/gimbalsdk_1.13_ios/Frameworks/ContextProfiling.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/gimbalsdk_1.13_ios/Frameworks,
+					/Users/awesome/Developer/apple/hackathons/gimbalsdk_1.13_ios/Frameworks/NetworkServices.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/BabySafe/Common.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/BabySafe/ContextCore.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/BabySafe/ContextLocation.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/BabySafe/ContextProfiling.embeddedframework,
+					/Users/awesome/Developer/apple/hackathons/BabySafe,
+					/Users/awesome/Developer/apple/hackathons/BabySafe/NetworkServices.embeddedframework,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BabySafe/BabySafe-Prefix.pch";
 				INFOPLIST_FILE = "BabySafe/BabySafe-Info.plist";
